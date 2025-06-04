@@ -110,3 +110,24 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+
+@media (max-width: 768px) {
+  #menu-btn {
+    display: block;
+  }
+
+  nav ul {
+    flex-direction: column;
+    display: none;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+
+  main {
+    padding: 1rem;
+  }
+}
